@@ -1,0 +1,92 @@
+{
+    "User":"ApiAxa",
+    "Password":"asa$asd",
+    "CanalCotizacion": "Cotizador Pyme -LP T2O", 
+    "NombreContacto":  "fullName",
+    "CorreoContacto":  "email@prueba.com",
+   "TelefonoContacto":  "123123123", 
+    "Sexo": "", 
+    "Plan": "AXA PYME",
+    "Edad": "", 
+    "FechaNacimiento” : ""
+    "DatosAdicionales": [
+        {
+            "KeyName": " Tipo de seleccion ",
+            "value": "Daños,Planmed,Auto"
+        },
+        {
+            "KeyName": " Tipo de negocio ",
+            "value": "null"
+        },
+        {
+            "KeyName": " Paquete daños ",
+            "value": "null"
+        },
+       {
+           "KeyName":"Costo paquete daños ",
+          "Value":"null"
+       },
+         {
+            "KeyName": " Planmed ",
+            "value": "null"
+        },
+       {
+           "KeyName":"Costo paquete planmed ",
+           "Value":"null"
+        },
+       {
+            "KeyName": " Auto ",
+            "value": "null"
+        },
+        {
+            "KeyName": " Costo total ",
+            "value": "null"
+        },
+        {
+            "KeyName": "Salud ",
+            "value": "null"
+        },
+        {
+            "KeyName": "Paquete salud",
+            "value": "null"
+        },
+        {
+            "KeyName": "Costo total salud",
+            "value": "null"
+        },
+        {
+            "KeyName": "Número de asegurados salud ",
+            "value": "null"
+        },
+        {
+            "KeyName": "Vida ",
+            "value": "null"
+        },
+        {
+            "KeyName": "Paquete vida",
+            "value": "null"
+        },
+        {
+            "KeyName": "Costo total vida",
+            "value": "null"
+        },
+        {
+            "KeyName": "Número de asegurados vida ",
+            "value": "null"
+        },
+       {
+            "KeyName":"utm_source",
+           "Value":"null"
+        },
+       {
+           "KeyName":"utm_medium",
+          "Value":"null"
+         },
+        {
+           "KeyName":"utm_campaign",
+           "Value":"null"
+         },
+        {
+           "KeyName":"utm_term",
+           "Value":"null"
+        }]
