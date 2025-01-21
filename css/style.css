@@ -227,7 +227,6 @@
     }
 
     .tooltip {
-        text-decoration: underline dotted 1px;
         cursor: help;
     }
 
@@ -655,7 +654,7 @@
     .cart-disclaimer {
         padding: 0rem 1rem;
         font-family: 'Source Sans 3';
-        font-size: .85rem;
+        font-size: 14px;
     }
 
     .cart-cta {
@@ -689,7 +688,7 @@
     .tab-wrap {
         display: flex;
         align-items: center;
-        gap: 25px;
+        gap: 24px;
         margin: 0rem 1rem;
         flex-wrap: wrap;
     }
@@ -798,7 +797,7 @@
     }
 
     .tab-content-wrap {
-        margin: 0rem 1rem;
+        margin: 0rem 0rem;
     }
 
     .tab-content {
@@ -975,8 +974,7 @@
         flex-direction: column;
         align-items: center;
         padding: 1rem;
-        border-radius: 15px;
-        max-width: 20rem;
+        border-radius: 15px; 
     }
 
     .nivel-ind {
@@ -1019,7 +1017,14 @@
     }
 
     .tabla-suma-asegurada {
+        width: 100%;
         border-collapse: collapse;
+        text-align: left;
+    }
+    
+    .tabla-suma-asegurada td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
     }
 
     td {
@@ -1840,7 +1845,7 @@
         }
 
         .tab-btn {
-            min-width: 120px;
+            min-width: 45%;
             padding: 15px;
         }
 
@@ -1936,7 +1941,7 @@
         }
 
         .tab-content-text .text-container {
-            padding: 2rem;
+            padding: 1rem;
         }
 
         select#danos-filtro {
@@ -2022,7 +2027,50 @@
 
         .carac-item h5 {
             margin: 0px;
-            width: 100px;
+            width: 100%;
             font-size: 1rem;
         }
     }
+.funeraria-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre columnas */
+}
+
+.funeraria-content {
+    flex: 1 1 60%;  /* Ajusta el tamaño de la primera columna */
+    max-width: 60%;
+}
+
+.funeraria-table-container {
+    flex: 1 1 40%; /* Ajusta el tamaño de la segunda columna */
+    max-width: 40%;
+}
+
+.funeraria-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.funeraria-table td {
+    padding: 8px 12px;
+    font-size: 0.9em;
+    vertical-align: top;
+    line-height: 1.4;
+    color: #333;
+}
+
+.funeraria-table td:first-child {
+    font-weight: bold;
+    width: 30px;
+    text-align: right;
+    color: #000;
+}
+
+.funeraria-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.funeraria-table tr:last-child {
+    border-bottom: none;
+}
