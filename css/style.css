@@ -31,6 +31,15 @@
         font-style: normal;
     }
 
+    .icon-info {
+        font-family: 'Noto Color Emoji', Arial, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        text-rendering: optimizeLegibility;
+    }
+    
+
     /*Animacion*/
     @keyframes fadeup {
         from {
