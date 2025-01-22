@@ -31,12 +31,10 @@
         font-style: normal;
     }
 
-    .icon-info {
-        font-family: 'Noto Color Emoji', Arial, sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: normal;
-        text-rendering: optimizeLegibility;
+    .info-icon {
+        font-size: 15px !important; /* Tamaño ajustado */
+        vertical-align: middle; /* Alineación */
+        font-weight: 700 !important; /* Grosor ligero */
     }
     
 
