@@ -2074,3 +2074,7 @@
 .funeraria-table tr:last-child {
     border-bottom: none;
 }
+.info-icon {
+    font-family: 'Noto Color Emoji', sans-serif;
+    font-size: 16px;
+}
