@@ -1479,7 +1479,7 @@
     }
 
     .quantity input {
-        width: 45px;
+        width: 66px;
         height: 42px;
         line-height: 1.65;
         float: left;
@@ -1964,7 +1964,6 @@
         }
 
         .danos-niveles div {
-            width: 80%;
             gap: 5px;
         }
 
@@ -2084,4 +2083,8 @@
 .info-icon {
     font-family: 'Noto Color Emoji', sans-serif;
     font-size: 16px;
+}
+.h4-subtitle {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
