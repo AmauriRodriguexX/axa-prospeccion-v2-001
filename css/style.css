@@ -1985,7 +1985,7 @@
         }
 
         .carac-grid.open {
-            max-height: 2100px;
+            max-height: unset;
         }
 
         .salud-cta {
